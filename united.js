@@ -7,7 +7,7 @@ async function getUnitedData() {
 
   const browser = await puppeteer.launch({ headless: true })
   const page = await browser.newPage()
-  await page.goto(URL, { waitUntil: /*"networkidle2"*/"load", timeout: 0 })
+  await page.goto(URL, { waitUntil: "load", timeout: 0 })
 
   const browserData = await page.evaluate(() => {
 
@@ -17,7 +17,6 @@ async function getUnitedData() {
     const myObj = []
 
     const blockLength = document.querySelectorAll("div.mn_groupsWrap[data-sort-type='byAlpha'] li").length
-    //Amazon has deactivated rebate
 
     for (let i = 0; i < blockLength; i++) {
 

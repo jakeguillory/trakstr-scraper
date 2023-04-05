@@ -17,7 +17,6 @@ const addMerchs = async (merchs) => {
 
             if (await db.collection('united').findOne(dateQuery)) {
                 continue
-
             }
 
             if (merch.instoreIcon == true) {
@@ -64,53 +63,14 @@ const addMerchs = async (merchs) => {
 
     }
 
-        console.log("Done in addMerchs")
-
-}
-
-const main = async () => {
-
-    //Takes all files from logs folder, filters based on price data that has changed and adds to database
-    //Have created a special test database to have seperate from airates database
-    console.time()
-
-    // const changedMerchs = await require('./changedMerchs.json')
-
-    const fileList = await fs.readdirSync("./atlasLogs/")
-
-    for (let file of fileList) {
-
-        const fileName = await `./atlasLogs/${file}`
-
-        const fileContent = await require(fileName)
-
-        // const filteredContent = await fileContent.filter(merch => changedMerchs.includes(merch.merchName) || merch.date)
-
-        await console.log(`Adding:           ${fileName}`)
-
-        await addMerchs(fileContent)
-        
-        await console.log(`Finished adding:  ${fileName}`)
-
-    }
-
-    console.log('Finished Task in: ')
-    console.timeEnd()
-
 }
 
 
-// db connection
-let db
 
-connectToDb((err) => {
-    if (!err) {
-        db = getDb()
-        console.log('Connected to Database')
-        main()
-    }
+module.exports = {
+    addMerchs,
+}
 
-})
 
 
 
