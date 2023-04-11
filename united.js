@@ -5,7 +5,16 @@ const URL = "https://shopping.mileageplus.com/b____.htm";
 
 async function getUnitedData() {
 
-  const browser = await puppeteer.launch({ headless: true })
+  const browser = await puppeteer.launch({ executablePath: '/usr/bin/chromium-browser',
+	  				   headless: true,
+	  				   ignoreDefaultArgs: [' --disable-extensions '],
+	  				   args: [
+						     "--disabled-gpu",
+						     "--disabled-dev-shm-usage",
+						     "--disabled-setuid-sandbox",
+						     "--no-sandbox",
+					   ],
+  					 })
   const page = await browser.newPage()
   await page.goto(URL, { waitUntil: "load", timeout: 0 })
 

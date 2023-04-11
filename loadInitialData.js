@@ -3,7 +3,7 @@ const { getDb, connectToDb } = require('./db')
 const { addMerchs } = require('./addToDB')
 
 
-const main = async () => {
+const main = async (db) => {
 
 
     const fileList = await fs.readdirSync("./initial-data")
@@ -16,13 +16,14 @@ const main = async () => {
 
         await console.log(`Adding:           ${fileName}`)
 
-        await addMerchs(fileContent)
+        await addMerchs(fileContent, db)
         
         await console.log(`Finished adding:  ${fileName}`)
 
     }
 
     console.log('Finished Task')
+    process.exit()
 
 }
 
@@ -34,7 +35,7 @@ connectToDb((err) => {
     if (!err) {
         db = getDb()
         console.log('Connected to Database')
-        main()
+        main(db)
     }
 
 })

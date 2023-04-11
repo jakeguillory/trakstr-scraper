@@ -1,9 +1,8 @@
 const fs = require("fs");
-const { getDb, connectToDb } = require('./db')
 
 
 
-const addMerchs = async (merchs) => {
+const addMerchs = async (merchs, db) => {
 
     // Adds single merch json file to db
 
@@ -58,7 +57,7 @@ const addMerchs = async (merchs) => {
             }
 
         } catch (err) {
-            console.err(err)
+            console.error(err)
         }
 
     }
