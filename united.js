@@ -73,6 +73,8 @@ async function getUnitedData() {
   return browserData        // Run this code and block line 60 to return directly into other file
 }
 
+getUnitedData()
+
 module.exports = {
     getUnitedData,
 }
