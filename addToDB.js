@@ -19,7 +19,7 @@ const addMerchs = async (merchs, db) => {
             }
 
             if (merch.instoreIcon == true) {
-                merchName = merchName + " - Instore"
+                merchName = merch.merchName + " - Instore"
             } else {
                 merchName = merch.merchName
             }

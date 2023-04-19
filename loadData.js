@@ -3,14 +3,13 @@ const { getDb, connectToDb } = require('./db')
 const { addMerchs } = require('./addToDB')
 
 
-const main = async (db) => {
+const main = async (db, relativeFolderPath) => {
 
-
-    const fileList = await fs.readdirSync("./initial-data")
+    const fileList = await fs.readdirSync(`${relativeFolderPath}`)
 
     for (let file of fileList) {
 
-        const fileName = await `./initial-data/${file}`
+        const fileName = await `${relativeFolderPath}/${file}`
 
         const fileContent = await require(fileName)
 
@@ -35,7 +34,7 @@ connectToDb((err) => {
     if (!err) {
         db = getDb()
         console.log('Connected to Database')
-        main(db)
+        main(db, process.argv[2])
     }
 
 })

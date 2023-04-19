@@ -6,6 +6,10 @@ node_modules/
 
 logs/
 
+logs.bk/
+
+logs2.bk/
+
 .cache/
 
 

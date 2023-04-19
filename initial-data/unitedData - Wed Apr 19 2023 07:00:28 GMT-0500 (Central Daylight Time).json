@@ -1,3 +1,6 @@
+
+
+
 [
     {
         "merchName": "ABCmouse.com",
@@ -100,7 +103,7 @@
     {
         "merchName": "AT&T Business",
         "link": "https://shopping.mileageplus.com/me____.htm?gmid=6290",
-        "price": "4000",
+        "price": "3900",
         "unit": "miles",
         "instoreIcon": false
     },
@@ -114,7 +117,7 @@
     {
         "merchName": "AT&T Wireless",
         "link": "https://shopping.mileageplus.com/me____.htm?gmid=2183",
-        "price": "3500",
+        "price": "3200",
         "unit": "miles",
         "instoreIcon": false
     },
@@ -191,7 +194,7 @@
     {
         "merchName": "Adidas",
         "link": "https://shopping.mileageplus.com/me____.htm?gmid=1510",
-        "price": "8",
+        "price": "3",
         "unit": "miles/$",
         "instoreIcon": false
     },
@@ -464,8 +467,8 @@
     {
         "merchName": "Apple",
         "link": "https://shopping.mileageplus.com/me____.htm?gmid=4",
-        "price": "4",
-        "unit": "miles/$",
+        "price": "1",
+        "unit": "mile/$",
         "instoreIcon": false
     },
     {
@@ -590,7 +593,7 @@
     {
         "merchName": "Autodesk",
         "link": "https://shopping.mileageplus.com/me____.htm?gmid=6129",
-        "price": "2",
+        "price": "6",
         "unit": "miles/$",
         "instoreIcon": false
     },
@@ -723,8 +726,8 @@
     {
         "merchName": "Banana Republic",
         "link": "https://shopping.mileageplus.com/me____.htm?gmid=2020",
-        "price": "1",
-        "unit": "mile/$",
+        "price": "2",
+        "unit": "miles/$",
         "instoreIcon": false
     },
     {
@@ -905,8 +908,8 @@
     {
         "merchName": "Bergdorf Goodman",
         "link": "https://shopping.mileageplus.com/me____.htm?gmid=2026",
-        "price": "3",
-        "unit": "miles/$",
+        "price": "1",
+        "unit": "mile/$",
         "instoreIcon": false
     },
     {
@@ -982,7 +985,7 @@
     {
         "merchName": "Bleu Rod Beattie",
         "link": "https://shopping.mileageplus.com/me____.htm?gmid=6519",
-        "price": "6",
+        "price": "3",
         "unit": "miles/$",
         "instoreIcon": false
     },
@@ -1031,7 +1034,7 @@
     {
         "merchName": "Blue Apron",
         "link": "https://shopping.mileageplus.com/me____.htm?gmid=5259",
-        "price": "1900",
+        "price": "1300",
         "unit": "miles",
         "instoreIcon": false
     },
@@ -1045,8 +1048,8 @@
     {
         "merchName": "Bluemercury",
         "link": "https://shopping.mileageplus.com/me____.htm?gmid=5603",
-        "price": "1",
-        "unit": "mile/$",
+        "price": "3",
+        "unit": "miles/$",
         "instoreIcon": false
     },
     {
@@ -1521,8 +1524,8 @@
     {
         "merchName": "Caraway Home",
         "link": "https://shopping.mileageplus.com/me____.htm?gmid=6150",
-        "price": "2",
-        "unit": "miles/$",
+        "price": "1",
+        "unit": "mile/$",
         "instoreIcon": false
     },
     {
@@ -1794,8 +1797,8 @@
     {
         "merchName": "Coach Outlet",
         "link": "https://shopping.mileageplus.com/me____.htm?gmid=5952",
-        "price": "5",
-        "unit": "mile/$",
+        "price": "2",
+        "unit": "miles/$",
         "instoreIcon": false
     },
     {
@@ -2198,13 +2201,6 @@
         "instoreIcon": false
     },
     {
-        "merchName": "David's Bridal",
-        "link": "https://shopping.mileageplus.com/me____.htm?gmid=3258",
-        "price": "1",
-        "unit": "mile/$",
-        "instoreIcon": false
-    },
-    {
         "merchName": "David's Cookies",
         "link": "https://shopping.mileageplus.com/me____.htm?gmid=26",
         "price": "1",
@@ -2263,8 +2259,8 @@
     {
         "merchName": "Dell Technologies",
         "link": "https://shopping.mileageplus.com/me____.htm?gmid=9",
-        "price": "1",
-        "unit": "mile/$",
+        "price": "4",
+        "unit": "miles/$",
         "instoreIcon": false
     },
     {
@@ -2298,6 +2294,13 @@
     {
         "merchName": "Dermalogica",
         "link": "https://shopping.mileageplus.com/me____.htm?gmid=6311",
+        "price": "1",
+        "unit": "mile/$",
+        "instoreIcon": false
+    },
+    {
+        "merchName": "Design Within Reach",
+        "link": "https://shopping.mileageplus.com/me____.htm?gmid=1702",
         "price": "1",
         "unit": "mile/$",
         "instoreIcon": false
@@ -2403,7 +2406,7 @@
     {
         "merchName": "Dockers.com",
         "link": "https://shopping.mileageplus.com/me____.htm?gmid=2690",
-        "price": "2",
+        "price": "4",
         "unit": "miles/$",
         "instoreIcon": false
     },
@@ -3292,7 +3295,7 @@
     {
         "merchName": "FreshDirect",
         "link": "https://shopping.mileageplus.com/me____.htm?gmid=6225",
-        "price": "2",
+        "price": "3",
         "unit": "miles/$",
         "instoreIcon": false
     },
@@ -3873,8 +3876,8 @@
     {
         "merchName": "Harley-Davidson",
         "link": "https://shopping.mileageplus.com/me____.htm?gmid=6465",
-        "price": "1",
-        "unit": "mile/$",
+        "price": "2",
+        "unit": "miles/$",
         "instoreIcon": false
     },
     {
@@ -4069,7 +4072,7 @@
     {
         "merchName": "Home Depot",
         "link": "https://shopping.mileageplus.com/me____.htm?gmid=1576",
-        "price": "6",
+        "price": "3",
         "unit": "miles/$",
         "instoreIcon": false
     },
@@ -4146,7 +4149,7 @@
     {
         "merchName": "Hu Kitchen",
         "link": "https://shopping.mileageplus.com/me____.htm?gmid=6130",
-        "price": "3",
+        "price": "8",
         "unit": "miles/$",
         "instoreIcon": false
     },
@@ -4776,7 +4779,7 @@
     {
         "merchName": "Keeper Security",
         "link": "https://shopping.mileageplus.com/me____.htm?gmid=5871",
-        "price": "4",
+        "price": "10",
         "unit": "miles/$",
         "instoreIcon": false
     },
@@ -4909,8 +4912,8 @@
     {
         "merchName": "kate spade",
         "link": "https://shopping.mileageplus.com/me____.htm?gmid=2912",
-        "price": "5",
-        "unit": "miles/$",
+        "price": "1",
+        "unit": "mile/$",
         "instoreIcon": false
     },
     {
@@ -4923,7 +4926,7 @@
     {
         "merchName": "L'Occitane",
         "link": "https://shopping.mileageplus.com/me____.htm?gmid=1793",
-        "price": "3",
+        "price": "2",
         "unit": "miles/$",
         "instoreIcon": false
     },
@@ -5140,7 +5143,7 @@
     {
         "merchName": "Lenovo",
         "link": "https://shopping.mileageplus.com/me____.htm?gmid=1800",
-        "price": "5",
+        "price": "2",
         "unit": "miles/$",
         "instoreIcon": false
     },
@@ -5756,7 +5759,7 @@
     {
         "merchName": "McAfee.com",
         "link": "https://shopping.mileageplus.com/me____.htm?gmid=2134",
-        "price": "9",
+        "price": "15",
         "unit": "miles/$",
         "instoreIcon": false
     },
@@ -6246,7 +6249,7 @@
     {
         "merchName": "Neiman Marcus",
         "link": "https://shopping.mileageplus.com/me____.htm?gmid=1830",
-        "price": "3",
+        "price": "10",
         "unit": "miles/$",
         "instoreIcon": false
     },
@@ -6309,7 +6312,7 @@
     {
         "merchName": "Nike",
         "link": "https://shopping.mileageplus.com/me____.htm?gmid=2151",
-        "price": "8",
+        "price": "2",
         "unit": "miles/$",
         "instoreIcon": false
     },
@@ -6974,7 +6977,7 @@
     {
         "merchName": "PetSmart",
         "link": "https://shopping.mileageplus.com/me____.htm?gmid=1550",
-        "price": "6",
+        "price": "2",
         "unit": "miles/$",
         "instoreIcon": false
     },
@@ -7254,7 +7257,7 @@
     {
         "merchName": "QVC.com",
         "link": "https://shopping.mileageplus.com/me____.htm?gmid=1865",
-        "price": "6",
+        "price": "2",
         "unit": "miles/$",
         "instoreIcon": false
     },
@@ -7303,7 +7306,7 @@
     {
         "merchName": "R+Co",
         "link": "https://shopping.mileageplus.com/me____.htm?gmid=6224",
-        "price": "2",
+        "price": "3",
         "unit": "miles/$",
         "instoreIcon": false
     },
@@ -7394,7 +7397,7 @@
     {
         "merchName": "Ray-Ban",
         "link": "https://shopping.mileageplus.com/me____.htm?gmid=5112",
-        "price": "8",
+        "price": "3",
         "unit": "miles/$",
         "instoreIcon": false
     },
@@ -7555,7 +7558,7 @@
     {
         "merchName": "Robert Mondavi Winery",
         "link": "https://shopping.mileageplus.com/me____.htm?gmid=6475",
-        "price": "2",
+        "price": "4",
         "unit": "miles/$",
         "instoreIcon": false
     },
@@ -7786,7 +7789,7 @@
     {
         "merchName": "Samsung",
         "link": "https://shopping.mileageplus.com/me____.htm?gmid=4889",
-        "price": "5",
+        "price": "10",
         "unit": "miles/$",
         "instoreIcon": false
     },
@@ -7884,8 +7887,8 @@
     {
         "merchName": "Sephora.com",
         "link": "https://shopping.mileageplus.com/me____.htm?gmid=1887",
-        "price": "1",
-        "unit": "mile/$",
+        "price": "8",
+        "unit": "miles/$",
         "instoreIcon": false
     },
     {
@@ -7961,14 +7964,14 @@
     {
         "merchName": "Shopbop",
         "link": "https://shopping.mileageplus.com/me____.htm?gmid=2172",
-        "price": "3",
+        "price": "10",
         "unit": "miles/$",
         "instoreIcon": false
     },
     {
         "merchName": "Showpo",
         "link": "https://shopping.mileageplus.com/me____.htm?gmid=6510",
-        "price": "6",
+        "price": "2",
         "unit": "miles/$",
         "instoreIcon": false
     },
@@ -7989,8 +7992,8 @@
     {
         "merchName": "Shutterfly.com",
         "link": "https://shopping.mileageplus.com/me____.htm?gmid=45",
-        "price": "6",
-        "unit": "miles/$",
+        "price": "1",
+        "unit": "mile/$",
         "instoreIcon": false
     },
     {
@@ -8066,7 +8069,7 @@
     {
         "merchName": "SkinStore.com",
         "link": "https://shopping.mileageplus.com/me____.htm?gmid=2035",
-        "price": "3",
+        "price": "2",
         "unit": "miles/$",
         "instoreIcon": false
     },
@@ -8122,15 +8125,15 @@
     {
         "merchName": "Smashbox",
         "link": "https://shopping.mileageplus.com/me____.htm?gmid=2526",
-        "price": "3",
+        "price": "2",
         "unit": "miles/$",
         "instoreIcon": false
     },
     {
         "merchName": "SmileDirectClub",
         "link": "https://shopping.mileageplus.com/me____.htm?gmid=6512",
-        "price": "4",
-        "unit": "miles/$",
+        "price": "1",
+        "unit": "mile/$",
         "instoreIcon": false
     },
     {
@@ -8647,7 +8650,7 @@
     {
         "merchName": "TaxSlayer",
         "link": "https://shopping.mileageplus.com/me____.htm?gmid=5643",
-        "price": "12",
+        "price": "3",
         "unit": "miles/$",
         "instoreIcon": false
     },
@@ -8822,7 +8825,7 @@
     {
         "merchName": "The Prisoner Wine Company",
         "link": "https://shopping.mileageplus.com/me____.htm?gmid=6476",
-        "price": "2",
+        "price": "4",
         "unit": "miles/$",
         "instoreIcon": false
     },
@@ -8871,7 +8874,7 @@
     {
         "merchName": "The Wall Street Journal",
         "link": "https://shopping.mileageplus.com/me____.htm?gmid=1956",
-        "price": "500",
+        "price": "800",
         "unit": "miles",
         "instoreIcon": false
     },
@@ -8927,7 +8930,7 @@
     {
         "merchName": "Thrive Market",
         "link": "https://shopping.mileageplus.com/me____.htm?gmid=5543",
-        "price": "10",
+        "price": "5",
         "unit": "miles/$",
         "instoreIcon": false
     },
@@ -9011,13 +9014,6 @@
     {
         "merchName": "Tom Thumb",
         "link": "https://shopping.mileageplus.com/me____.htm?gmid=5896",
-        "price": "1",
-        "unit": "mile/$",
-        "instoreIcon": false
-    },
-    {
-        "merchName": "Tommy Bahama",
-        "link": "https://shopping.mileageplus.com/me____.htm?gmid=5385",
         "price": "1",
         "unit": "mile/$",
         "instoreIcon": false
@@ -9191,16 +9187,9 @@
         "instoreIcon": false
     },
     {
-        "merchName": "TurboTax",
-        "link": "https://shopping.mileageplus.com/me____.htm?gmid=6015",
-        "price": "750",
-        "unit": "miles",
-        "instoreIcon": false
-    },
-    {
         "merchName": "tarte cosmetics",
         "link": "https://shopping.mileageplus.com/me____.htm?gmid=4513",
-        "price": "3",
+        "price": "12",
         "unit": "miles/$",
         "instoreIcon": false
     },
@@ -9298,7 +9287,7 @@
     {
         "merchName": "Under Armour",
         "link": "https://shopping.mileageplus.com/me____.htm?gmid=2205",
-        "price": "8",
+        "price": "3",
         "unit": "miles/$",
         "instoreIcon": false
     },
@@ -9380,13 +9369,6 @@
         "instoreIcon": false
     },
     {
-        "merchName": "Valvoline Instant Oil Change",
-        "link": "https://shopping.mileageplus.com/me____.htm?gmid=6509",
-        "price": "4",
-        "unit": "miles/$",
-        "instoreIcon": false
-    },
-    {
         "merchName": "Vans",
         "link": "https://shopping.mileageplus.com/me____.htm?gmid=2525",
         "price": "1",
@@ -9459,7 +9441,7 @@
     {
         "merchName": "Verizon Fios - TV & Internet",
         "link": "https://shopping.mileageplus.com/me____.htm?gmid=5296",
-        "price": "2000",
+        "price": "1700",
         "unit": "miles",
         "instoreIcon": false
     },
@@ -10068,7 +10050,7 @@
     {
         "merchName": "Zoro",
         "link": "https://shopping.mileageplus.com/me____.htm?gmid=5072",
-        "price": "4",
+        "price": "2",
         "unit": "miles/$",
         "instoreIcon": false
     },
@@ -10191,7 +10173,5 @@
         "unit": "miles/$",
         "instoreIcon": false
     },
-    {
-    	"date":"Mon Apr 17 2023 07:00:23 GMT-0500 (Central Daylight Time)"
-    }
+    {"date":"Wed Apr 19 2023 07:00:27 GMT-0500 (Central Daylight Time)"}
 ]
