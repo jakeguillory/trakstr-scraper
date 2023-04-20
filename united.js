@@ -5,8 +5,7 @@ const URL = "https://shopping.mileageplus.com/b____.htm";
 
 async function getUnitedData() {
 
-  const browser = await puppeteer.launch({ executablePath: '/usr/bin/chromium-browser',
-	  				   headless: true,
+  const browser = await puppeteer.launch({ headless: true,
 	  				   ignoreDefaultArgs: [' --disable-extensions '],
 	  				   args: [
 						     "--disabled-gpu",
@@ -73,7 +72,6 @@ async function getUnitedData() {
   return browserData        // Run this code and block line 60 to return directly into other file
 }
 
-getUnitedData()
 
 module.exports = {
     getUnitedData,
