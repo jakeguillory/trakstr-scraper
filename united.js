@@ -28,7 +28,6 @@ async function getUnitedData() {
     ).length;
 
     for (let i = 0; i < blockLength; i++) {
-      const date = new Date().toString();
       const block = document.querySelectorAll(
         "div.mn_groupsWrap[data-sort-type='byAlpha'] li"
       )[i];
@@ -69,21 +68,23 @@ async function getUnitedData() {
     return myObj;
   });
 
-  const date = new Date().toString();
+  // Get current date and convert to unix epoch time
+  const date = Math.floor(new Date().getTime() / 1000);
 
   browserData.push({ date: date });
 
   await fs.writeFile(
-    `./logs/unitedData - ${date}.json`,
-    JSON.stringify(browserData)
-  ); // Run this code and block line 64 to write to a file
+    `./logs/united-${date}.json`,
+    JSON.stringify(browserData),
+    (err) => {
+      console.log(err);
+    }
+  );
 
   await browser.close();
 
   return browserData; // Run this code and block line 60 to return directly into other file
 }
-
-//getUnitedData()
 
 module.exports = {
   getUnitedData,
