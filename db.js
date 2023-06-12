@@ -1,3 +1,7 @@
+/*
+ *  Defines database connection and functionality
+ */
+
 const { MongoClient } = require('mongodb')
 require('dotenv').config()
 

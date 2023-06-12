@@ -1,11 +1,13 @@
 
 
-.env
-
 node_modules/
 
 logs/
 
 .cache/
+
+package.json
+
+package-lock.json
 
 
