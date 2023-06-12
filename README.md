@@ -17,7 +17,7 @@ TRAKSTR: Application that tracks reward data
 
 - Web scraping
 - Headless browser
-- Document Database logic and design
+- Document database logic and design
 - File system scripting
 - Regular expressions
   
@@ -32,20 +32,21 @@ TRAKSTR: Application that tracks reward data
 
 NOTE: The instructions below were tested on Windows 11 running Ubuntu 22.04.2 on WSL with Node version 18.16.0
 
-**Ensure a recent NodeJS installation**
+1. **Ensure a recent NodeJS and Docker installation**
 
-**Copy this repo**
+2. **Copy this repo**
 
 ```
-git clone https://github.com/jakeguillory/trakstr-scraper.git
+git clone https://github.com/jakeguillory/trakstr-scraper.git && cd trakstr-scraper
 ```
 
-**Change credentials**
+3. **Change credentials**
 
 Change username and password on lines 10, 11, 21, 22 on mongo.yaml.
+
 Change username and password in connection string of MONGO-URI in .env file
 
-**Start Database Containers**
+4. **Start Database Containers**
 
 ```
 docker compose -f mongo.yaml up -d
@@ -63,13 +64,13 @@ Verify that Mongo Express viewer is available. Browse to the following:
 http://localhost:8081
 ```
 
-**Install Dependencies**
+5. **Install Dependencies**
 
 ```
 npm install puppeteer mongodb dotenv
 ```
 
-**Load sample data (optional)**
+6. **Load sample data (optional)**
 
 ```
 node loadData.js ./initial-data
@@ -77,7 +78,7 @@ node loadData.js ./initial-data
 
 Data should be viewable in Mongo Express at http:/localhost:8081
 
-**Setup Recurring Scraper**
+7. **Setup Recurring Scraper**
 
 Setup cron-job task scheduler. The following command opens the doc:
 
@@ -87,7 +88,7 @@ crontab -e
 
 Depending on your system, the paths below will be different. Full paths should be used as per the following formula: 
 
-<CRON EXPRESSION> cd <FULL PATH TO REPO> && <FULL PATH TO NODE PROGRAM> <PROGRAM TO BE EXECUTED>
+\<CRON EXPRESSION> cd \<FULL PATH TO REPO> && \<FULL PATH TO NODE PROGRAM> \<PROGRAM TO BE EXECUTED>
 
 The cron expression represents the frequency for scraping. Consult https://crontab.guru for reference
 
@@ -99,6 +100,6 @@ An example below:
 
 The cron expression above runs once a day at 7:00 AM. It navigates to the repository and runs "node index.js"
 
-**Test**
+8. **Test**
 
 Data should be available in Mongo Express viewer
