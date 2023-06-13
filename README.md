@@ -40,12 +40,6 @@ NOTE: The instructions below were tested on Windows 11 running Ubuntu 22.04.2 on
 git clone https://github.com/jakeguillory/trakstr-scraper.git && cd trakstr-scraper
 ```
 
-3. **Change credentials**
-
-Change username and password on lines 10, 11, 21, 22 on mongo.yaml.
-
-Change username and password in connection string of MONGO-URI in .env file
-
 4. **Start Database Containers**
 
 ```
@@ -67,7 +61,19 @@ http://localhost:8081
 5. **Install Dependencies**
 
 ```
+npm init 
+```
+
+Press enter to all default prompts
+
+```
 npm install puppeteer mongodb dotenv
+```
+
+Install dependencies for puppeteer
+
+```
+sudo apt update && sudo apt install -y gconf-service libgbm-dev libasound2 libatk1.0-0 libc6 libcairo2 libcups2 libdbus-1-3 libexpat1 libfontconfig1 libgcc1 libgconf-2-4 libgdk-pixbuf2.0-0 libglib2.0-0 libgtk-3-0 libnspr4 libpango-1.0-0 libpangocairo-1.0-0 libstdc++6 libx11-6 libx11-xcb1 libxcb1 libxcomposite1 libxcursor1 libxdamage1 libxext6 libxfixes3 libxi6 libxrandr2 libxrender1 libxss1 libxtst6 ca-certificates fonts-liberation libappindicator1 libnss3 lsb-release xdg-utils wget
 ```
 
 6. **Load sample data (optional)**
@@ -103,3 +109,5 @@ The cron expression above runs once a day at 7:00 AM. It navigates to the reposi
 8. **Test**
 
 Data should be available in Mongo Express viewer
+
+
