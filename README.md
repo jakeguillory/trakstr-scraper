@@ -39,6 +39,11 @@ NOTE: The instructions below were tested on Windows 11 running Ubuntu 22.04.2 on
 ```
 git clone https://github.com/jakeguillory/trakstr-scraper.git && cd trakstr-scraper
 ```
+3. **Add log folder**
+
+```
+mkdir logs
+```
 
 4. **Start Database Containers**
 
